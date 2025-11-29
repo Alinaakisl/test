@@ -1,0 +1,73 @@
+<head>
+    <title>Ввод числа - Opera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: left;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #ffffff;
+        }
+        
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px #0000001a;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            color: #333;
+        }
+        
+        input[type="number"] {
+            width: 200px;
+            padding: 10px;
+            font-size: 1em;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        input[type="number"]:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+        
+        .my-answer {
+            font-weight: bold;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #e8f4fc;
+            border-left: 4px solid #3498db;
+        }
+        
+        .required {
+            font-style: italic;
+            color: #666;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+        <form>
+            <label for="numberInput">Введите число от 1 до 10:
+            <input type="number" 
+                   id="numberInput" 
+                   name="numberInput" 
+                   min="1" 
+                   max="10" 
+                   placeholder="Введите число">
+        </label>
+        </form>
+</body>
+</html>
